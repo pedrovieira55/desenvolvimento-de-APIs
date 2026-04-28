@@ -4,10 +4,10 @@ dotenv.config();
 
 const { Pool } = pg;
 const config = {
-    host: "1",
-    password:"123456",
-    user: "Pedro",
-    port: "5000",
-    database: ""
+    host: "127.0.1.1",
+    password:"senai",
+    user: "postgres",
+    database: "",
+    name: "28-04-2026"
 }
 const pool = new Pool(config);
